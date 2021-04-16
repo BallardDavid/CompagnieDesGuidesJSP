@@ -85,7 +85,7 @@ public class Abris {
           
             while (rs.next()){
             	Abris a = new Abris();
-                a.setCode_Abris(Integer.parseInt(rs.getString("code_Abris")));
+                a.setCode_Abris(rs.getInt("code_Abris"));
                 a.setNom_Abris(rs.getString("nom_Abris"));
                 a.setType_Abris(rs.getString("type_Abris"));
                 a.setAltitude_Abris(rs.getString("altitude_Abris"));
@@ -111,7 +111,7 @@ public class Abris {
           
             while (rs.next()){
             	Abris a = new Abris();
-                a.setCode_Abris(Integer.parseInt(rs.getString("code_Abris")));
+                a.setCode_Abris(rs.getInt("code_Abris"));
                 a.setNom_Abris(rs.getString("nom_Abris"));
                 a.setType_Abris(rs.getString("type_Abris"));
                 a.setAltitude_Abris(rs.getString("altitude_Abris"));
@@ -137,7 +137,7 @@ public class Abris {
           
             while (rs.next()){
             	Abris a = new Abris();
-                a.setCode_Abris(Integer.parseInt(rs.getString("code_Abris")));
+                a.setCode_Abris(rs.getInt("code_Abris"));
                 a.setNom_Abris(rs.getString("nom_Abris"));
                 a.setType_Abris(rs.getString("type_Abris"));
                 a.setAltitude_Abris(rs.getString("altitude_Abris"));
